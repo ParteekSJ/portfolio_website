@@ -1,5 +1,5 @@
+baseURL: 'https://parteeksjamwal.netlify.app'
 languageCode: en-us
-baseURL: "http://localhost/"
 title: Parteek Jamwal
 paginate: 5
 theme: PaperMod
