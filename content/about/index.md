@@ -2,6 +2,7 @@
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ShowShareButtons: false
+searchHidden: true
 draft: false
 showToc: false
 TocOpen: false
