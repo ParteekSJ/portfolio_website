@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parteek Jamwal</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Parteek Jamwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Jun 2024 08:16:41 +0400</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>P1</title>
+      <link>//localhost:1313/projects/p1/</link>
+      <pubDate>Sat, 29 Jun 2024 08:16:41 +0400</pubDate>
+      
+      <guid>//localhost:1313/projects/p1/</guid>
+      <description>&lt;h2 id=&#34;project-one-details&#34;&gt;Project One Details&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>B1</title>
+      <link>//localhost:1313/blogs/first/</link>
+      <pubDate>Thu, 27 Jun 2024 16:10:51 +0400</pubDate>
+      
+      <guid>//localhost:1313/blogs/first/</guid>
+      <description>&lt;h2 id=&#34;blog-one-details&#34;&gt;Blog One Details&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;p&gt;Hello! I&amp;rsquo;m [Your Name], a passionate [Your Profession or Hobby].&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;I have a background in [Your Background or Field of Study] and have been involved in [Relevant Experience or Interests].&lt;/p&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Interest 1]&lt;/li&gt;
+&lt;li&gt;[Interest 2]&lt;/li&gt;
+&lt;li&gt;[Interest 3]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;Feel free to reach out via [Your Contact Information].&lt;/p&gt;
+&lt;p&gt;Thank you for visiting my page!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>//localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/archives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

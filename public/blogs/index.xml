@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Parteek Jamwal</title>
+    <link>//localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on Parteek Jamwal</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2024 16:10:51 +0400</lastBuildDate>
+    <atom:link href="//localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B1</title>
+      <link>//localhost:1313/blogs/first/</link>
+      <pubDate>Thu, 27 Jun 2024 16:10:51 +0400</pubDate>
+      <guid>//localhost:1313/blogs/first/</guid>
+      <description>Blog One Details </description>
+      <content:encoded><![CDATA[<h2 id="blog-one-details">Blog One Details</h2>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
