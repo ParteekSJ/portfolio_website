@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: ""
+baseURL: "http://localhost/"
 title: Parteek Jamwal
 paginate: 5
 theme: PaperMod
