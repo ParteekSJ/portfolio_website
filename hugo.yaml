@@ -1,0 +1,160 @@
+languageCode: en-us
+baseURL: ""
+title: Parteek Jamwal
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ParteekJamwal
+  description: "This is the website of Parteek Jamwal."
+  keywords: [Blog, Portfolio, Data Science]
+  author: Parteek Jamwal
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  nextprev: true
+  taglist: true
+  showrss: true
+  math: true
+  mainSections: "blogs" # important
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+
+  tocopen: false
+  comments: true
+
+  services:
+    disqus:
+      shortname: your-disqus-shortname
+
+  label:
+    text: "Parteek Jamwal"
+    icon: "images/dp.jpeg"
+    iconHeight: 35
+
+  # profile-mode
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: "Welcome to Parteek's Vault! \U0001F44B"
+  #   subtitle: "This is Parteek's vault."
+  #   imageUrl: "images/dp.png"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   # imageTitle: "Data Professor"
+  #   buttons:
+  #     - name: Blogs
+  #       url: blogs
+  #     - name: Projects
+  #       url: projects
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome to Parteek's Vault! \U0001F44B"
+    Content: "This is where you'll find my notes and my interpretations of different research papers."
+
+  socialIcons:
+    # - name: youtube
+    #   url: "http://youtube.com/dataprofessor"
+    # - name: medium
+    #   url: "https://medium.com/@data-professor"
+    # - name: twitter
+    #   url: "https://twitter.com/thedataprof"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/parteeksjamwal/"
+    - name: github
+      url: "https://github.com/ParteekSJ"
+    # - name: buymeacoffee
+      # url: "https://www.buymeacoffee.com/dataprofessor"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    disableHLJS: true
+    favicon: "/assets/favicon.ico"
+
+  contentDir:
+    main: "blogs"
+    projects: "projects"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+    - identifier: blog
+      name: Blogs
+      url: /blogs/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 3
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 4
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        style: monokai
