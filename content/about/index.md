@@ -23,20 +23,20 @@ cover:
 
 # About Me
 
-Hello! I'm [Your Name], a passionate [Your Profession or Hobby].
+Hello! I'm Parteek Jamwl, a passionate AI Engineer/Researcher.
 
 ## Background
 
-I have a background in [Your Background or Field of Study] and have been involved in [Relevant Experience or Interests].
+I have a Masters in Artificial Intelligence and Machine Learning from the University of Birmingham. I currently work at Lockheed Martin CISS, Abu Dhabi, UAE as a Lead AI Engineer.
 
-## Interests
+<!-- ## Interests
 
 - [Interest 1]
 - [Interest 2]
-- [Interest 3]
+- [Interest 3] -->
 
 ## Contact
 
-Feel free to reach out via [Your Contact Information].
+Feel free to reach out via email: parteeksjamwal@gmail.com.
 
 Thank you for visiting my page!
