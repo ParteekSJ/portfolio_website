@@ -9,8 +9,6 @@ cover:
   relative: true
 showtoc: true
 ---
-
-## Project Description
 In this project, we've applied the Masked Multi-scale Reconstruction (MMR) method which can be found [here](https://arxiv.org/pdf/2304.02216v2) on the Aero-engine Blade Anomaly Detection (AeBAD) dataset.  This model utilizes a Vision Transformer (ViT) based encoder-decoder architecture and Feature Pyramid Network to enhance the model’s ability to perform multi-scale reconstruction of image patches. The architecture looks as follows:
 
 {{< figure src="/assets/aeroengine-blade-project-assets/MMR-Architecture.png">}}
